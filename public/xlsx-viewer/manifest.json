@@ -1,0 +1,36 @@
+{
+  "name": "Excel Workbook Viewer \u2014 runlocally",
+  "short_name": "Excel Viewer",
+  "description": "Open XLSX, XLSM, and XLS workbooks in a read-only browser table without uploading the file.",
+  "start_url": "/xlsx-viewer/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/xlsx-viewer/",
+  "icons": [
+    {
+      "src": "/xlsx-viewer/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/xlsx-viewer/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
