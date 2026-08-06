@@ -95,4 +95,9 @@ export const es: ToolContent = {
       'Creado y mantenido por Geppetto; se utilizó asistencia de IA en partes del código y del texto.',
     securityText: 'Seguridad',
   },
+
+  related: {
+    h2: 'Herramientas relacionadas',
+    blogLinkText: 'Leer las notas técnicas',
+  },
 };
